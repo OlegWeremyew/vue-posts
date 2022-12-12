@@ -2,7 +2,7 @@
   <div class="post">
     <div>
       <div>
-        <strong>Номер поста{{ post.id }}</strong>
+        <strong>Номер поста {{ post.id }}</strong>
       </div>
       <div>
         <strong>Название:</strong> {{ post.title }}
@@ -12,6 +12,7 @@
       </div>
     </div>
     <div class="post__btns">
+      <MyButton @click="$router.push(`/posts/${post.id}`)">Open</MyButton>
       <MyButton @click="$emit('remove', this.post)">Удалить</MyButton>
     </div>
 
@@ -39,5 +40,11 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.post__btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 </style>
