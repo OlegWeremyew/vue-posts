@@ -1,12 +1,12 @@
 <template>
 <div>
-  imsges
+  images
 </div>
 </template>
 
 <script>
 export default {
-  name: "Images"
+  name: "Images",
 }
 </script>
 

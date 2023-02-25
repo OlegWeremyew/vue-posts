@@ -102,23 +102,6 @@ export default {
   margin: 15px 0 15px 10px
 }
 
-.page__wrapper {
-  display: flex;
-  margin-top: 15px;
-}
-
-.page {
-  border: 1px solid black;
-  padding: 10px;
-  cursor: pointer;
-  margin-left: 2px;
-  border-radius: 3px;
-}
-
-.current-page {
-  border: 2px solid teal;
-}
-
 .observer {
   height: 30px;
   background: transparent;

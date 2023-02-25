@@ -1,7 +1,7 @@
 export default {
   mounted(el, binding){
     console.log(el)
-    //агрузка при скроле
+    //загрузка при скроле
     const options = {
       rootMargin: '0px',
       threshold: 1.0,
