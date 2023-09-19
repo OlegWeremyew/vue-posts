@@ -2,6 +2,7 @@
   "name": "vue-posts",
   "version": "0.1.0",
   "private": true,
+  "author": "Oleg Veremyev",
   "homepage": "https://OlegWeremyew.github.io/vue-posts",
   "scripts": {
     "serve": "vue-cli-service serve",

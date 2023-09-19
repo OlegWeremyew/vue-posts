@@ -101,11 +101,10 @@ export default {
         alert(`Error: ${e.message}`)
       }
     },
-    //уберём пока пагинацию
-    // changePage(pageNumber) {
-    //   this.page = pageNumber;
-    //   //this.fetchPosts()
-    // },
+    changePage(pageNumber) {
+      this.page = pageNumber;
+      this.fetchPosts()
+    },
   },
   mounted() {
     this.fetchPosts()
@@ -119,11 +118,6 @@ export default {
     sortedAndSearchedPosts() {
       return this.sortedPost.filter(post => post.title.toLowerCase().includes(this.searchQuery.toLowerCase()))
     },
-  },
-  watch: {
-    // page(){
-    //   this.fetchPosts()
-    // },
   },
 }
 </script>
