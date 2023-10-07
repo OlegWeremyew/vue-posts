@@ -4,14 +4,10 @@
     <div class="container">
       <router-view/>
     </div>
-
   </div>
-
 </template>
 
 <script>
-
-
 import Navbar from "@/components/Navbar";
 
 export default {
@@ -19,7 +15,6 @@ export default {
   components: {Navbar},
 }
 </script>
-
 
 <style>
 * {
@@ -37,5 +32,4 @@ export default {
   border-right: 2px solid teal;
   min-height: 100vh;
 }
-
 </style>

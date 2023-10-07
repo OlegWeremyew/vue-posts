@@ -1,9 +1,9 @@
-import Main from "@/pages/Main";
+import Main from "@/views/Main";
 import {createRouter, createWebHistory} from "vue-router";
-import PostsPage from "@/pages/PostsPage";
-import Images from "@/pages/Images";
-import Post from "@/pages/Post";
-import PostsPageWithStore from "@/pages/PostsPageWithStore";
+import PostsPage from "@/views/PostsPage";
+import Images from "@/views/Images";
+import Post from "@/views/Post";
+import PostsPageWithStore from "@/views/PostsPageWithStore";
 
 const routes = [
   {

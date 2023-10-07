@@ -4,10 +4,6 @@
     <router-link class="link" to="/posts">Posts</router-link>
     <router-link class="link" to="/store">Posts Store</router-link>
     <router-link class="link" to="/images">Images</router-link>
-    <!--
-    //для примера как через кнопку
-    <MyButton class="link__btn" @click="$router.push('/images')">Images</MyButton>
-    -->
   </nav>
 </template>
 
@@ -44,5 +40,4 @@ export default {
   color: teal;
   background: #FFFFFF;
 }
-
 </style>

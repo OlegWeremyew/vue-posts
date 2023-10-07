@@ -1,13 +1,13 @@
 export default {
   mounted(el, binding){
-    console.log(el)
-    //загрузка при скроле
+
+
     const options = {
       rootMargin: '0px',
       threshold: 1.0,
     }
 
-    const callback = (entries, observer) => {
+    const callback = (entries) => {
       if (entries[0].isIntersecting) {
         binding.value()
       }
@@ -15,7 +15,6 @@ export default {
 
     const observer = new IntersectionObserver(callback, options)
     observer.observe(el)
-    //загрузка при скроле окончена
   },
   name: 'intersections',
 }
